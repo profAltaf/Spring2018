@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Rachel Busch, CIS 345, Tues/Thurs 9:00am, IC17
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,13 @@ namespace IC17
             // declare and instantiate your form
             // show the form
             // WriteLine();
+        }
+
+        private void RachelBuschBioButton_Click(object sender, EventArgs e)
+        {
+            RachelBuschBioForm rachelBuschBioForm = new RachelBuschBioForm();
+            rachelBuschBioForm.Show();
+
         }
     }
 }

@@ -31,6 +31,8 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.RachelBuschBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // altafBioButton
@@ -61,11 +63,32 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // RachelBuschBioButton
+            // 
+            this.RachelBuschBioButton.Location = new System.Drawing.Point(879, 138);
+            this.RachelBuschBioButton.Name = "RachelBuschBioButton";
+            this.RachelBuschBioButton.Size = new System.Drawing.Size(75, 23);
+            this.RachelBuschBioButton.TabIndex = 3;
+            this.RachelBuschBioButton.Text = "Rachel Busch ";
+            this.RachelBuschBioButton.UseVisualStyleBackColor = true;
+            this.RachelBuschBioButton.Click += new System.EventHandler(this.RachelBuschBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.RachelBuschBioButton);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
@@ -81,6 +104,8 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RachelBuschBioButton;
     }
 }
 
