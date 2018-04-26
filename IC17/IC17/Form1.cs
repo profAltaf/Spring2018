@@ -23,5 +23,11 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        private void showLeynesBioButton_Click(object sender, EventArgs e)
+        {
+            LeynesBioForm leynesBioForm = new LeynesBioForm();
+            leynesBioForm.Show();
+        }
     }
 }

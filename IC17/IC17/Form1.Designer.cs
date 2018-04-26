@@ -31,6 +31,7 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.showLeynesBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // altafBioButton
@@ -61,11 +62,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // showLeynesBioButton
+            // 
+            this.showLeynesBioButton.Location = new System.Drawing.Point(674, 134);
+            this.showLeynesBioButton.Name = "showLeynesBioButton";
+            this.showLeynesBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showLeynesBioButton.TabIndex = 2;
+            this.showLeynesBioButton.Text = "Jeremiah";
+            this.showLeynesBioButton.UseVisualStyleBackColor = true;
+            this.showLeynesBioButton.Click += new System.EventHandler(this.showLeynesBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.showLeynesBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button showLeynesBioButton;
     }
 }
 
