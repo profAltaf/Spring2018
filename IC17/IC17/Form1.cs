@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Keishia Kamaludin, CIS345 IC17, TTh 9AM
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,14 @@ namespace IC17
             // declare and instantiate your form
             // show the form
             // WriteLine();
+        }
+
+        private void showKeishiaBioButton_Click(object sender, EventArgs e)
+        {
+            //declare and instantiate bioform
+            KeishiaBioForm bioform = new KeishiaBioForm();
+            bioform.Show();
+
         }
     }
 }
