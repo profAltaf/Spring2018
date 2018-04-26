@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class MackenzieBioForm : Form
     {
-        public Form1()
+        public MackenzieBioForm()
         {
             InitializeComponent();
         }
 
-        private void showMackenzieBioButton_Click(object sender, EventArgs e)
+        private void closeButton_Click(object sender, EventArgs e)
         {
-            MackenzieBioForm mackenzieBio = new MackenzieBioForm();
-
-            mackenzieBio.Show();
+            this.Close();
         }
     }
 }
