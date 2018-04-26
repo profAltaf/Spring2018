@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Brock Lefkowitz, CIS345, 9:00 am
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace IC17
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void brockLefkowitzBioButton_Click(object sender, EventArgs e)
+        {
+            BrockLefkowitzBioForm brockLefkowitzBioForm = new BrockLefkowitzBioForm();
+            brockLefkowitzBioForm.Show();
+            //instantiates a new instance of my bio form and shows it
         }
     }
 }
