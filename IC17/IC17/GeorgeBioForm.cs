@@ -27,6 +27,17 @@ namespace IC17
 
             // save my name in the field
             this.name = name;
+
+            // fill in text boxes
+            nameTextBox.Text = $"{name} Heiler";
+            dreamJobTextBox.Text = "Self-Employed Investor";
+        }
+
+        // exit button event handler
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // close my form
+            this.Close();
         }
     }
 }
