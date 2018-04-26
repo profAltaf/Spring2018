@@ -30,5 +30,11 @@ namespace IC17
 
             jakeBioForm.Show();
         }
-    }
+
+		private void showMartinBioButton_Click(object sender, EventArgs e)
+		{
+			MartinBioForm martinBioForm = new MartinBioForm();
+			martinBioForm.Show();
+		}
+	}
 }
