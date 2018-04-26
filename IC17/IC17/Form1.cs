@@ -17,6 +17,13 @@ namespace IC17
             InitializeComponent();
         }
 
+        private void altafBioButton_Click(object sender, EventArgs e)
+        {
+            // declare and instantiate your form
+            // show the form
+            // WriteLine();
+        }
+
         private void showTannerMillyardBioButton_Click(object sender, EventArgs e)
         {
             TannerMillyardBioForm tannerMillyardBioShow = new TannerMillyardBioForm();

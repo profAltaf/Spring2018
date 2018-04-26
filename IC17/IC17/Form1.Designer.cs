@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.showTannerMillyardBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // altafBioButton
             // 
-            this.button1.Location = new System.Drawing.Point(426, 24);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Professor";
-            this.button1.UseVisualStyleBackColor = true;
+            this.altafBioButton.Location = new System.Drawing.Point(426, 24);
+            this.altafBioButton.Name = "altafBioButton";
+            this.altafBioButton.Size = new System.Drawing.Size(109, 28);
+            this.altafBioButton.TabIndex = 0;
+            this.altafBioButton.Text = "Professor";
+            this.altafBioButton.UseVisualStyleBackColor = true;
+            this.altafBioButton.Click += new System.EventHandler(this.altafBioButton_Click);
             // 
             // label1
             // 
@@ -79,7 +80,7 @@
             this.Controls.Add(this.showTannerMillyardBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.altafBioButton);
             this.Name = "Form1";
             this.Text = "Launch Page - Click a Button to Launch a Student Bio";
             this.ResumeLayout(false);
@@ -89,7 +90,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button showTannerMillyardBioButton;
