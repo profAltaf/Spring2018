@@ -57,24 +57,29 @@
             // 
             this.nameTextBox.Location = new System.Drawing.Point(179, 36);
             this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.ReadOnly = true;
             this.nameTextBox.Size = new System.Drawing.Size(198, 20);
             this.nameTextBox.TabIndex = 2;
+            this.nameTextBox.Text = "Tanner Millyard";
             // 
             // dreamJobTextBox
             // 
             this.dreamJobTextBox.Location = new System.Drawing.Point(179, 73);
             this.dreamJobTextBox.Name = "dreamJobTextBox";
+            this.dreamJobTextBox.ReadOnly = true;
             this.dreamJobTextBox.Size = new System.Drawing.Size(198, 20);
             this.dreamJobTextBox.TabIndex = 2;
+            this.dreamJobTextBox.Text = "Professional dog walker";
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(154, 166);
+            this.closeButton.Location = new System.Drawing.Point(179, 147);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 3;
             this.closeButton.Text = "Close";
             this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // TannerMillyardBioForm
             // 
