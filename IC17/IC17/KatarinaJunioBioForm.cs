@@ -16,5 +16,11 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        // will close form
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

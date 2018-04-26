@@ -70,7 +70,7 @@
             this.katarinaBioButton.TabIndex = 2;
             this.katarinaBioButton.Text = "KatarinaBioButton";
             this.katarinaBioButton.UseVisualStyleBackColor = true;
-            this.katarinaBioButton.Click += new System.EventHandler(this.katarinaBioButton_Click);
+            this.katarinaBioButton.Click += new System.EventHandler(this.showKatarinaBioButton_Click);
             // 
             // Form1
             // 
