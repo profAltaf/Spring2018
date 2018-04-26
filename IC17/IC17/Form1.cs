@@ -1,4 +1,5 @@
-﻿using System;
+﻿// kylei chang, ic17, cis 345, tues/thurs 9am
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,13 @@ namespace IC17
             // declare and instantiate your form
             // show the form
             // WriteLine();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KyleiBioForm kyleiForm = new KyleiBioForm();
+
+            kyleiForm.Show();
         }
     }
 }
