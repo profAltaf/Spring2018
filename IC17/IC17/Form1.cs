@@ -23,5 +23,11 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        private void showAlfredBioButton_Click(object sender, EventArgs e)
+        {
+            AlfredBioForm alfredBioForm = new AlfredBioForm();
+            alfredBioForm.Show();
+        }
     }
 }
