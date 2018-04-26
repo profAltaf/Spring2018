@@ -31,6 +31,8 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.showJakeBioButton = new System.Windows.Forms.Button();
+            this.showTannerMillyardBioButton = new System.Windows.Forms.Button();
             this.showLeynesBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
