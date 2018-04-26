@@ -16,5 +16,12 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void aquraBioButton_Click(object sender, EventArgs e)
+        {
+            // declare and instantiate your form
+            // show form
+            // WriteLine();
+        }
     }
 }
