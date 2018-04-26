@@ -16,5 +16,17 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        // event handler for George button
+        private void georgeBioButton_Click(object sender, EventArgs e)
+        {
+            // declare and instantiate form for my button
+            // pass my name using the button info; downcast and supply name
+            Button tmpButton = (Button)sender;
+            GeorgeBioForm georgeBio = new GeorgeBioForm(tmpButton.Text);
+
+            // show the form
+            georgeBio.Show();
+        }
     }
 }
