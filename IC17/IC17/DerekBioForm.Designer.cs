@@ -69,7 +69,7 @@
             this.dreamJobTextBox.ReadOnly = true;
             this.dreamJobTextBox.Size = new System.Drawing.Size(167, 20);
             this.dreamJobTextBox.TabIndex = 3;
-            this.dreamJobTextBox.Text = "Music Mogul";
+            this.dreamJobTextBox.Text = "Internet Radio Mogul";
             // 
             // closeButton
             // 
