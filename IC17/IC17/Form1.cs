@@ -23,5 +23,11 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        private void showNoraBioButton_Click(object sender, EventArgs e)
+        {
+            NoraBioForm noraBioForm = new NoraBioForm();    // declare and instantiate NoraBioForm
+            noraBioForm.Show();                             // show the form
+        }
     }
 }

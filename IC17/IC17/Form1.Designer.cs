@@ -31,6 +31,7 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.showNoraBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // altafBioButton
@@ -61,11 +62,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // showNoraBioButton
+            // 
+            this.showNoraBioButton.Location = new System.Drawing.Point(147, 265);
+            this.showNoraBioButton.Name = "showNoraBioButton";
+            this.showNoraBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showNoraBioButton.TabIndex = 2;
+            this.showNoraBioButton.Text = "Nora";
+            this.showNoraBioButton.UseVisualStyleBackColor = true;
+            this.showNoraBioButton.Click += new System.EventHandler(this.showNoraBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.showNoraBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button showNoraBioButton;
     }
 }
 
