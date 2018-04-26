@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.showMichaelMayperBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -60,11 +61,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // showMichaelMayperBioButton
+            // 
+            this.showMichaelMayperBioButton.Location = new System.Drawing.Point(221, 188);
+            this.showMichaelMayperBioButton.Name = "showMichaelMayperBioButton";
+            this.showMichaelMayperBioButton.Size = new System.Drawing.Size(91, 23);
+            this.showMichaelMayperBioButton.TabIndex = 2;
+            this.showMichaelMayperBioButton.Text = "Michael Mayper";
+            this.showMichaelMayperBioButton.UseVisualStyleBackColor = true;
+            this.showMichaelMayperBioButton.Click += new System.EventHandler(this.showMichaelMayperBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.showMichaelMayperBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -80,6 +92,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button showMichaelMayperBioButton;
     }
 }
 
