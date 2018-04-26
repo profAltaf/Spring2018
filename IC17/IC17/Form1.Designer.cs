@@ -31,6 +31,7 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.showJakeBioButton = new System.Windows.Forms.Button();
             this.showTannerMillyardBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -62,22 +63,11 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
-            // showTannerMillyardBioButton
-            // 
-            this.showTannerMillyardBioButton.Location = new System.Drawing.Point(31, 321);
-            this.showTannerMillyardBioButton.Name = "showTannerMillyardBioButton";
-            this.showTannerMillyardBioButton.Size = new System.Drawing.Size(75, 40);
-            this.showTannerMillyardBioButton.TabIndex = 2;
-            this.showTannerMillyardBioButton.Text = "Tanner Millyard";
-            this.showTannerMillyardBioButton.UseVisualStyleBackColor = true;
-            this.showTannerMillyardBioButton.Click += new System.EventHandler(this.showTannerMillyardBioButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
-            this.Controls.Add(this.showTannerMillyardBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
@@ -93,7 +83,6 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button showTannerMillyardBioButton;
     }
 }
 

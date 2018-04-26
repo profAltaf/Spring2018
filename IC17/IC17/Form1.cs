@@ -29,5 +29,12 @@ namespace IC17
             TannerMillyardBioForm tannerMillyardBioShow = new TannerMillyardBioForm();
             tannerMillyardBioShow.Show();
         }
+
+        private void showJakeBioButton_Click(object sender, EventArgs e)
+        {
+            JakeBioForm jakeBioForm = new JakeBioForm();
+
+            jakeBioForm.Show();
+        }
     }
 }
