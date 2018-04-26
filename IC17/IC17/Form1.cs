@@ -23,5 +23,14 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        // create Click event handler to show bio button
+        private void showKatarinaBioButton_Click(object sender, EventArgs e)
+        {
+            // declare and instantiate KatarinaBioForm
+            // show form to user
+            KatarinaJunioBioForm katarinaForm = new KatarinaJunioBioForm();
+            katarinaForm.Show();
+        }
     }
 }

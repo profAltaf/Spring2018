@@ -31,6 +31,7 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.katarinaBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // altafBioButton
@@ -61,11 +62,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // katarinaBioButton
+            // 
+            this.katarinaBioButton.Location = new System.Drawing.Point(706, 73);
+            this.katarinaBioButton.Name = "katarinaBioButton";
+            this.katarinaBioButton.Size = new System.Drawing.Size(100, 23);
+            this.katarinaBioButton.TabIndex = 2;
+            this.katarinaBioButton.Text = "KatarinaBioButton";
+            this.katarinaBioButton.UseVisualStyleBackColor = true;
+            this.katarinaBioButton.Click += new System.EventHandler(this.katarinaBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.katarinaBioButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button katarinaBioButton;
     }
 }
 
