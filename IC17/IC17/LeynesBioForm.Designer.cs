@@ -60,6 +60,7 @@
             this.nameTextBox.ReadOnly = true;
             this.nameTextBox.Size = new System.Drawing.Size(219, 20);
             this.nameTextBox.TabIndex = 2;
+            this.nameTextBox.Text = "Jeremiah Leynes";
             // 
             // dreamJobTextBox
             // 
@@ -68,6 +69,7 @@
             this.dreamJobTextBox.ReadOnly = true;
             this.dreamJobTextBox.Size = new System.Drawing.Size(219, 20);
             this.dreamJobTextBox.TabIndex = 3;
+            this.dreamJobTextBox.Text = "Network Architect";
             // 
             // closeButton
             // 
@@ -77,6 +79,7 @@
             this.closeButton.TabIndex = 4;
             this.closeButton.Text = "Close";
             this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // LeynesBioForm
             // 

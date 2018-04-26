@@ -1,4 +1,5 @@
-﻿using System;
+﻿//IC17, Jeremiah Leynes, CIS 345
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace IC17
         public LeynesBioForm()
         {
             InitializeComponent();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
