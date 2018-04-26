@@ -23,5 +23,11 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        private void RameyBioButton_Click(object sender, EventArgs e)
+        {
+            RameyBioForm rameyBioForm = new RameyBioForm();
+            rameyBioForm.Show();
+        }
     }
 }
