@@ -29,5 +29,24 @@ namespace IC17
             AlfredBioForm alfredBioForm = new AlfredBioForm();
             alfredBioForm.Show();
         }
+
+        private void showLeynesBioButton_Click(object sender, EventArgs e)
+        {
+            LeynesBioForm leynesBioForm = new LeynesBioForm();
+            leynesBioForm.Show();
+        }
+
+        private void showTannerMillyardBioButton_Click(object sender, EventArgs e)
+        {
+            TannerMillyardBioForm tannerMillyardBioShow = new TannerMillyardBioForm();
+            tannerMillyardBioShow.Show();
+        }
+
+        private void showJakeBioButton_Click(object sender, EventArgs e)
+        {
+            JakeBioForm jakeBioForm = new JakeBioForm();
+
+            jakeBioForm.Show();
+        }
     }
 }
