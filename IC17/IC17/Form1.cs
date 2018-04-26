@@ -23,5 +23,12 @@ namespace IC17
             // show the form
             // WriteLine();
         }
+
+        private void showJakeBioButton_Click(object sender, EventArgs e)
+        {
+            JakeBioForm jakeBioForm = new JakeBioForm();
+
+            jakeBioForm.Show();
+        }
     }
 }
