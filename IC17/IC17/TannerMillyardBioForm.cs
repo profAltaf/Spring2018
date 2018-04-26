@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class TannerMillyardBioForm : Form
     {
-        public Form1()
+        public TannerMillyardBioForm()
         {
             InitializeComponent();
-        }
-
-        private void showTannerMillyardBioButton_Click(object sender, EventArgs e)
-        {
-            TannerMillyardBioForm tannerMillyardBioShow = new TannerMillyardBioForm();
-            tannerMillyardBioShow.Show();
         }
     }
 }
