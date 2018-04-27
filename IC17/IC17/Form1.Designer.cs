@@ -28,55 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.altafBioButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.showAlfredBioButton = new System.Windows.Forms.Button();
-            this.showJakeBioButton = new System.Windows.Forms.Button();
-            this.showTannerMillyardBioButton = new System.Windows.Forms.Button();
-            this.showLeynesBioButton = new System.Windows.Forms.Button();
+            this.showJiawangBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // altafBioButton
+            // showJiawangBioButton
             // 
-            this.altafBioButton.Location = new System.Drawing.Point(426, 24);
-            this.altafBioButton.Name = "altafBioButton";
-            this.altafBioButton.Size = new System.Drawing.Size(109, 28);
-            this.altafBioButton.TabIndex = 0;
-            this.altafBioButton.Text = "Professor";
-            this.altafBioButton.UseVisualStyleBackColor = true;
-            this.altafBioButton.Click += new System.EventHandler(this.altafBioButton_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(444, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Front of Class";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(444, 490);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Back of Class";
+            this.showJiawangBioButton.Location = new System.Drawing.Point(175, 86);
+            this.showJiawangBioButton.Name = "showJiawangBioButton";
+            this.showJiawangBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showJiawangBioButton.TabIndex = 0;
+            this.showJiawangBioButton.Text = "Jiawang";
+            this.showJiawangBioButton.UseVisualStyleBackColor = true;
+            this.showJiawangBioButton.Click += new System.EventHandler(this.showJiawangBioButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1009, 512);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.altafBioButton);
+            this.ClientSize = new System.Drawing.Size(473, 363);
+            this.Controls.Add(this.showJiawangBioButton);
             this.Name = "Form1";
-            this.Text = "Launch Page - Click a Button to Launch a Student Bio";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -85,6 +55,7 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button showJiawangBioButton;
     }
 }
 

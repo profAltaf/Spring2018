@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Jiawang Tang, Cis345, Tuesday 9:00am
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,6 +48,12 @@ namespace IC17
             JakeBioForm jakeBioForm = new JakeBioForm();
 
             jakeBioForm.Show();
+        }
+
+        private void showJiawangBioButton_Click(object sender, EventArgs e)
+        {
+            JiawangBioForm jiawang = new JiawangBioForm();
+            jiawang.Show();
         }
     }
 }
