@@ -12,6 +12,8 @@ namespace IC17
 {
     public partial class Form1 : Form
     {
+        ChrisBioForm chrisBioForm;
+
         public Form1()
         {
             InitializeComponent();
@@ -47,6 +49,12 @@ namespace IC17
             JakeBioForm jakeBioForm = new JakeBioForm();
 
             jakeBioForm.Show();
+        }
+
+        private void showChrisBioButton_Click(object sender, EventArgs e)
+        {
+            chrisBioForm = new ChrisBioForm();
+            chrisBioForm.Show();
         }
     }
 }
