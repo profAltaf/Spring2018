@@ -31,10 +31,7 @@
             this.altafBioButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.showAlfredBioButton = new System.Windows.Forms.Button();
-            this.showJakeBioButton = new System.Windows.Forms.Button();
-            this.showTannerMillyardBioButton = new System.Windows.Forms.Button();
-            this.showLeynesBioButton = new System.Windows.Forms.Button();
+            this.JenniferBioForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // altafBioButton
@@ -65,16 +62,27 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Back of Class";
             // 
+            // JenniferBioForm
+            // 
+            this.JenniferBioForm.Location = new System.Drawing.Point(253, 245);
+            this.JenniferBioForm.Name = "JenniferBioForm";
+            this.JenniferBioForm.Size = new System.Drawing.Size(109, 28);
+            this.JenniferBioForm.TabIndex = 2;
+            this.JenniferBioForm.Text = "Jennifer";
+            this.JenniferBioForm.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1009, 512);
+            this.Controls.Add(this.JenniferBioForm);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.altafBioButton);
             this.Name = "Form1";
             this.Text = "Launch Page - Click a Button to Launch a Student Bio";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,6 +93,7 @@
         private System.Windows.Forms.Button altafBioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button JenniferBioForm;
     }
 }
 
