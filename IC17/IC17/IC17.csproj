@@ -63,6 +63,12 @@
     <Compile Include="JakeBioForm.Designer.cs">
       <DependentUpon>JakeBioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="JenniferBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JenniferBioForm.Designer.cs">
+      <DependentUpon>JenniferBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LeynesBioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JenniferBioForm.resx">
+      <DependentUpon>JenniferBioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LeynesBioForm.resx">
       <DependentUpon>LeynesBioForm.cs</DependentUpon>
