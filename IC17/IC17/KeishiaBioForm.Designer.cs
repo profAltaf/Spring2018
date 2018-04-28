@@ -69,7 +69,7 @@
             this.dreamJobTextBox.ReadOnly = true;
             this.dreamJobTextBox.Size = new System.Drawing.Size(492, 26);
             this.dreamJobTextBox.TabIndex = 3;
-            this.dreamJobTextBox.Text = "Start up company";
+            this.dreamJobTextBox.Text = "Having my own start up company ";
             // 
             // closeButton
             // 
