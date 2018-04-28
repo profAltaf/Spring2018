@@ -63,5 +63,11 @@ namespace IC17
             JiawangBioForm jiawang = new JiawangBioForm();
             jiawang.Show();
         }
+
+        private void showThomasBioButton_Click(object sender, EventArgs e)
+        {
+            ThomasBioForm thomasBioForm = new ThomasBioForm();
+            thomasBioForm.Show(); 
+        }
     }
 }
