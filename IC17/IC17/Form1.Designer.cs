@@ -1,4 +1,5 @@
-﻿namespace IC17
+﻿//Noel Hernandez, cis 345 TTH 9:00am, IC17
+namespace IC17
 {
     partial class Form1
     {
@@ -111,6 +112,7 @@
             this.Controls.Add(this.altafBioButton);
             this.Name = "Form1";
             this.Text = "Launch Page - Click a Button to Launch a Student Bio";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

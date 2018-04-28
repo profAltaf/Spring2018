@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Noel Hernandez, cis 345 TTH 9:00am, IC17
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,6 +48,11 @@ namespace IC17
         {
             NoelBioForm noelBioForm = new NoelBioForm();
             noelBioForm.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
