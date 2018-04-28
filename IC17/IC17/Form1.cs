@@ -42,5 +42,11 @@ namespace IC17
 
             jakeBioForm.Show();
         }
+
+        private void showNoelBioButtton_Click(object sender, EventArgs e)
+        {
+            NoelBioForm noelBioForm = new NoelBioForm();
+            noelBioForm.Show();
+        }
     }
 }
